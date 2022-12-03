@@ -14,8 +14,8 @@ echo <<< END
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta charset="UTF-8">
 
-  <link rel="icon" type="image/png" href="./favicon.ico">
-  <link rel="apple-touch-icon" type="image/png" href="./favicon.ico">
+  <link rel="icon" type="image/png" href="./CounterBig.ico">
+  <link rel="apple-touch-icon" type="image/png" href="./CounterBig.ico">
 
   <link rel="stylesheet" href="style.css">
   <title>Counter</title>
