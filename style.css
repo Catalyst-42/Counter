@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'JuliaMono';
+  src: url("JuliaMono-Regular.woff2") format("woff2");
+}
+
+* {
+  font-family: Courier, 'JuliaMono', monospace;
+  font-variant-ligatures: none;
+}
+
+body {
+  background-color: #17202A;
+}
+
+p {
+  color: #EAECEE;
+  font-size: x-large;
+  text-align: center;
+  padding: 8px;
+}
+
+input {
+  color: #ABB2B9;
+  background-color: #17202A;
+  font-size: x-large;
+  
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
+
+  width: 1em;
+  height: 1em;
+
+  border-radius: 4px;
+
+  background-color: #2C3E50;
+  transition: .5s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ABB2B9;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    top: 5vh !important;
+  }
+}
+
+.menu {
+  color: #ABB2B9;
+  background-color: #17202A;
+  font-size: x-large;
+  
+  border-radius: 4px;
+  padding-top: 6px;
+  
+  transition: right 1s;
+  position: fixed;
+  
+  right: -7em;
+  top: 40vh;
+}
+
+.menu-button:checked ~ .menu {
+  right: 1em;
+}
